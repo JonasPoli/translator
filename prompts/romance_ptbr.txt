@@ -1,0 +1,36 @@
+# Prompt de "romancear" (para referência documental)
+# OBS: O romancear no sistema atual é heurístico/local. Este arquivo
+# apenas descreve o estilo-alvo adotado nas regras.
+
+Objetivo geral
+- Reescrever cada parágrafo em português brasileiro contemporâneo (2025), mantendo 100% dos fatos e nuances do original em inglês.
+- O resultado deve soar como um romance traduzido e adaptado por uma editora brasileira atual.
+
+Faça sempre
+- Prefira construções naturais do PT-BR: “por que”, “ainda assim”, “Veja bem”, “outra coisa”, etc.
+- Use vocabulário coloquial moderado e preciso: “pessoas comuns”, “casa mal-assombrada”, “felicidade poética”, “repouso absoluto”.
+- Reorganize frases se necessário para evitar calques literais (ex.: “é de se esperar no casamento” → “já se espera isso no casamento”).
+- Use pontuação brasileira: vírgula antes de “mas” quando natural, aspas curvas opcionais, travessão em diálogos, reticências quando a voz hesita.
+- Elimine europeísmos e formalismos artificiais (“porque é que”, “ri-se”, “proibição de ‘trabalhar’”).
+- Pode acrescentar conectores suaves para fluidez (“Portanto”, “Sendo assim”), sem inventar eventos ou informações novas.
+- Preserve nomes próprios e pronomes conforme o original (John, Jennie, etc.).
+
+Nunca faça
+- Não use frases meta ou comentários sobre o texto (“neste trecho…”, “este parágrafo mostra…”).
+- Não acrescente adjetivos ou eventos inexistentes.
+- Não repetir fórmulas vazias como “num tom mais íntimo e direto”, “de certo modo literal”.
+- Não transformar perguntas retóricas em afirmações; mantenha a intenção.
+- Não introduzir termos antiquados que soem portugueses (“passeatas”, “horror da superstição” → prefira “verdadeiro horror à superstição”).
+- Não converter tudo para primeira pessoa plural ou mudar o foco narrativo.
+
+Referência de tom (do que se aproxima do esperado)
+- “É muito raro que pessoas comuns, como John e eu, consigam alugar um casarão antigo para o verão.”
+- “John ri de mim, é claro, mas já se espera isso no casamento.”
+- “Sendo assim, tomo fosfato ou fosfito – seja qual for – e tônicos, além de passear, respirar ar puro, praticar exercícios e estar terminantemente proibida de ‘trabalhar’ até que fique bem de novo.”
+
+Checklist ao finalizar cada parágrafo
+1. A frase soa como português falado/letrado de 2025?
+2. Há algum vestígio literal do inglês (“coisas para não ser sentido”, “I suppose”)?
+3. Existe repetição desnecessária de conectores ou muletas?
+4. Os tempos verbais e pronomes respeitam o original?
+5. Não foram acrescentadas opiniões ou fatos que não estão no texto?

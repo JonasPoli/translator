@@ -1,0 +1,11 @@
+{
+  "total_lines": 4996,
+  "completed_ranges": [
+    [
+      1,
+      26
+    ]
+  ],
+  "next_start_line": 27,
+  "notes": "Ranges follow [start, end] inclusive, aligning with `nl -ba originais/cap2.md` line numbers."
+}

@@ -1,0 +1,7 @@
+{
+  "default": {
+    "approval_policy": "never",
+    "sandbox_mode": "danger-full-access",
+    "network_access": "enabled"
+  }
+}

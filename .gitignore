@@ -1,0 +1,11 @@
+openai_config.json
+__pycache__/
+.idea/
+
+**/._*
+._*
+/models/*
+/models
+
+/env_tradutor/*
+/env_tradutor
