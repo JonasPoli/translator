@@ -1,0 +1,71 @@
+A escada da cabana estava rebaixada, a porta entreaberta; não havia ninguém ali dentro. A pouca luz que entrava pelo vidro dianteiro delineava vagamente seu interior, melancólico claro-escuro. As inscrições de Ursus glorificando a grandeza dos lordes distinguiam-se nas pranchas decrépitas que eram, ao mesmo tempo, parede exterior e revestimento interior. Em um prego ao lado da porta, Gwynplaine viu sua esclavina e seu casaco pendurados, parecendo as roupas de um morto em um necrotério.
+Naquele momento, não usava nem colete, nem casaco.
+A cabana encobria alguma coisa que estava estendida sobre o convés, ao pé do mastro, e que a lamparina iluminava. Era um colchão, do qual se via um dos cantos. Provavelmente havia alguém deitado sobre ele; via-se uma sombra se mexer.
+Falavam. Escondido pela cabana, Gwynplaine escutava.
+Era a voz de Ursus.
+Essa voz, tão rude por fora, tão terna por dentro, que havia tratado tão duramente e tão bem havia conduzido Gwynplaine desde sua infância, não tinha mais seu timbre vivo e sagaz. Soava vaga e baixa, e se dissipava em suspiros ao final de cada frase. Mal e confusamente lembrava a antiga, simples e firme voz de Ursus. Era como o falar de alguém cuja felicidade estivesse morta. A voz pode tornar-se uma sombra.
+Ursus mais parecia monologar que dialogar. Aliás, como sabemos, o solilóquio era um hábito seu. Por causa disso, passava por lunático.
+Gwynplaine prendeu a respiração para não perder uma só palavra do que dizia Ursus, e eis o que ele ouviu:
+— Esta espécie de navio é muito perigosa. Não tem parapeito. Se alguém deslizar para o mar, não há quem segure. Se fizer mau tempo, será preciso levá-la para baixo do convés, o que seria terrível. Qualquer movimento em falso, qualquer susto, e acontece o rompimento de uma artéria. Já vi casos assim. Ah, meu Deus, o que vai ser de nós? Será que ela está dormindo? Sim, está dormindo. Creio realmente que está dormindo. Será que perdeu os sentidos? Não. O pulso está bem forte. Certamente está dormindo. O sono é uma espera. É a boa cegueira. Como fazer para que ninguém venha andar por aqui? Senhores, se há alguém no convés, peço-lhes encarecidamente que não façam barulho. Caso não se importem, não se aproximem. Sabem, com uma pessoa de saúde delicada, é preciso ter certos cuidados. Ela está com febre, entendem? É tão nova! Uma menina que está com febre. Coloquei este colchão aqui fora para que ela tome um pouco de ar. Explico isso para que tenham consideração. Ela caiu de fraqueza sobre o colchão, como se perdesse os sentidos. Mas está dormindo. Eu gostaria que ninguém a acordasse. Falo para as mulheres, caso haja damas aqui. Uma jovenzinha; não é uma pena? Não passamos de uns pobres saltimbancos, peço que tenham um pouco de bondade, mas, também, se for preciso pagar alguma coisa para que não façam barulho, eu pagarei. Eu lhes agradeço, minhas senhoras e meus senhores. Tem alguém aí? Não. Acho que não tem ninguém. Estou falando para as paredes. Melhor assim. Senhores, eu lhes agradeço se estiverem aí e também lhes agradeço se não estiverem aí. — Sua testa está banhada de suor. — Lá vamos nós, de novo ao trabalho forçado, de novo ao jugo. A miséria está de volta. Lá vamos nós outra vez de roldão.
+Uma mão, a medonha mão que não vemos, mas que sempre sentimos sobre nós, subitamente nos fez virar mais uma vez para o lado negro do nosso destino. Não faz mal; teremos coragem. Ela só não pode ficar doente. Pareço um bobo falando sozinho e tão alto, mas ela precisa saber que há alguém ao lado dela se vier a despertar. Tomara que ninguém a acorde bruscamente! Por Deus, nada de barulho! Um susto que a fizesse levantar sobressaltada não seria nada bom. Seria uma amolação alguém vir andar do lado de cá. Acho que as pessoas no navio já estão dormindo. Dou graças à providência pelo que nos concedeu. Pois bem, e Homo? Onde está ele? Com toda essa confusão, eu me esqueci de prendê-lo, já não sei mais o que faço, já faz mais de uma hora que não o vejo; deve ter ido lá fora arranjar o que comer.
+Tomara que nada de mal lhe aconteça! Homo! Homo!
+Homo bateu docilmente o rabo no piso do convés.
+— Você está aí! Ah! Você está aí, Deus seja louvado! Perder Homo seria o fim! Ela está mexendo os braços. Talvez vá acordar. Fique quieto, Homo. A maré está baixando. Logo mais partiremos. Acho que esta noite vai fazer tempo bom. Não tem vento. A bandeirola pende ao lado do mastro, faremos uma boa travessia. Não sei mais em que lua estamos. As nuvens mal e mal se movem. O mar vai ficar calmo. Teremos tempo bom. Ela está pálida.
+É a fraqueza. Não, ela está corada. É a febre. Mas não, está rosada. Está passando bem. Já não vejo com clareza. Meu pobre Homo, não vejo mais com clareza. Então teremos de recomeçar nossa vida. Voltaremos a trabalhar.
+Agora somos só nós dois, ouviu? Trabalharemos, você e eu, por ela. Ela é nossa menina. Ah, o navio está se mexendo. Estamos partindo. Adeus, Londres! Boa noite. Boa noite, ao diabo! Ah! Abominável Londres!
+De fato, o navio tinha a vaga comoção da partida. A parte traseira se afastava da paliçada. Do outro lado da embarcação, via-se um homem em pé, sem dúvida o capitão, que acabava de sair do interior do navio e de soltar a amarra, e que manobrava o leme. Esse homem, atento apenas ao canal, como convém a quem tem a dupla impassibilidade do holandês e do marinheiro, não ouvindo nada e não vendo nada além da água e do vento, curvado sob a extremidade da barra, envolto em obscuridade, caminhava lentamente pelo convés de popa, indo e voltando de estibordo a bombordo, espécie de fantasma com uma trave sobre o ombro. Estava sozinho ali. Enquanto estivessem no rio, nenhum outro marinheiro era necessário. Depois de alguns minutos, a embarcação já deslizava ao longo do rio, sem balançar para lado algum. O Tâmisa, pouco agitado pelo refluxo, estava calmo. Sendo levado pela maré, o navio se afastava rapidamente. Atrás dele, a escura silhueta de Londres ia diminuindo em meio à bruma.
+Ursus continuou:
+— Tanto faz, mandarei tirarem sua impressão digital. Tenho medo que entre em delírio. Está suando na palma das mãos. Mas o que foi que fizemos ao bom Deus? Como toda essa desgraça chegou rápido! A rapidez do mal é atroz. Uma pedra cai, ela tem garras, é o gavião sobre a andorinha. É o destino. E aqui está você deitada, minha linda criança! Ao vir para Londres, dizemos: É uma grande cidade, com belos monumentos. Southwark é um excelente lugar. Lá nos estabelecemos. Agora são lugares abomináveis. O
+que querem que eu faça aqui? Estou feliz por ir embora. Hoje é 30 de abril.
+Sempre desconfiei do mês de abril, ele só tem dois dias bons, o dia 5 e o dia 27, e quatro dias ruins, dia 10, dia 20, dia 29 e dia 30. Pelos cálculos de Cardan, não resta dúvida. Eu queria que esse dia acabasse. Ir embora me traz alívio. Ao amanhecer estaremos em Gravesend, e, à noite, em Roterdã. Meu Deus, recomeçarei a vida de antes na cabana, vamos puxá-la, não é verdade, Homo?
+Uma leve batida anunciou o consentimento do lobo.
+Ursus prosseguiu:
+— Se pudéssemos deixar uma dor para trás como deixamos para trás uma cidade! Ainda poderíamos ser felizes, Homo. Ai, se ainda existisse aquele que não está mais aqui… Sobre os que sobrevivem, resta só uma sombra. Você sabe o que eu quero dizer, Homo. Éramos quatro, agora somos só três. A vida não passa de uma longa perda de tudo aquilo que amamos.
+Deixamos atrás de nós um rastro de dor. O destino nos desconcerta com uma prolixidade de sofrimentos insuportáveis. Depois nos admiramos que os velhos sempre repitam a mesma ladainha. É o desespero que faz isso com as pessoas. Meu bravo Homo, o vento de popa persiste. Não se avista mais o domo de Saint–Paul. Logo mais passaremos por Greenwich. E já serão seis boas milhas percorridas. Ah, viro as costas para sempre para essas odiosas capitais cheias de padres, de magistrados, de gentalha. Prefiro ver o movimento das folhas nos bosques. — O suor na testa continua! Não gosto nada dessas grossas veias violeta no antebraço. É por causa da febre. Ah, tudo isso me mata. Durma, minha menina. Oh, sim, ela está dormindo.
+Nesse momento, ouviu-se uma voz, voz inefável, que parecia distante, que parecia vir, a um só tempo, das alturas e das profundezas, divinamente sinistra: era a voz de Dea.
+Tudo o que Gwynplaine havia sentido até aquele momento não tinha mais nenhum significado. Seu anjo falava. Parecia-lhe ouvir palavras vindas do outro lado da vida num desfalecimento pleno de céu.
+A voz dizia:
+— Ele fez bem de ter partido. Este mundo aqui não serve para ele. Só que preciso ir com ele. Pai, não estou doente; há pouco eu ouvia o senhor falar, estou muito bem, estou saudável, eu só estava dormindo. Pai, vou ser feliz.
+— Minha menina, o que você quer dizer com isso? — perguntou Ursus em tom angustiado.A resposta foi:
+— Pai, não fique triste.
+Houve uma pausa, como para retomar o fôlego, e depois estas palavras, pronunciadas lentamente, chegaram a Gwynplaine:
+— Gwynplaine não está mais aqui. Agora sim estou cega. Eu não conhecia a escuridão. A escuridão é a ausência.
+A voz parou novamente, depois continuou:
+— Sempre tive medo de que um dia ele batesse as asas; eu sentia que ele era celestial. De repente, alçou seu voo. Isso devia terminar aí. Uma alma vai embora como um passarinho. Mas o ninho da alma está nas profundezas onde existe um grande ímã, que tudo atrai, e sei muito bem onde reencontrar Gwynplaine. Não estou aborrecida com meu caminho, é verdade. Pai, é ali.
+Mais tarde o senhor se juntará a nós. E Homo também.
+Ao ouvir seu nome, Homo bateu de leve no convés.
+— Pai — continuou a voz —, o senhor entende que, desde que Gwynplaine não está mais aqui, está tudo acabado. Mesmo que eu quisesse ficar, não poderia, porque seria obrigada a respirar. Não se pode pedir o que não é possível. Quando eu estava com Gwynplaine, tudo era fácil, eu vivia.
+Agora que ele não está mais aqui, estou morrendo. É a mesma coisa. É
+preciso ou que ele volte, ou que eu parta. Como ele não pode voltar, eu me vou. Morrer é muito bom. Não é nada difícil. Pai, o que se apaga aqui reacende em outro lugar. Viver nesta terra em que estamos é um aperto no coração. Não é possível que estejamos sempre infelizes. Então, vamos embora para aquilo que o senhor chama de estrelas, lá nos casaremos, nunca mais nos largaremos, nos amaremos, amaremos, amaremos, e é isso que é o bom Deus.
+— Não fique aborrecida — disse Ursus.
+A voz continuou:
+— Escute, no ano passado, na primavera do ano passado, estávamos juntos, éramos felizes, agora é bem diferente. Não me lembro mais em que vilarejo estávamos, mas havia árvores, eu ouvia as toutinegras cantarem.
+Viemos para Londres, as coisas mudaram. Não estou censurando. Quando vamos para um novo lugar, não há como saber. Pai, o senhor se lembra? Uma noite, no camarote especial, apareceu uma mulher; o senhor disse: é uma duquesa! Eu fiquei triste. Acho que teria sido melhor ficar nos vilarejos.
+Depois disso, Gwynplaine fez bem. Agora é minha vez. Como o senhor mesmo me contou que eu era muito pequena, que minha mãe tinha morrido, que certa noite eu estava no chão, com a neve caindo por cima de mim, e que ele, que também era pequeno e sozinho, me pegou, e que tinha sido por isso que eu vivia, então não pode se admirar que hoje eu sinta uma absoluta necessidade de partir, e que eu queira ver de dentro do próprio túmulo se Gwynplaine está lá. Porque a única coisa que existe na vida é o coração, e depois da vida a alma. O senhor entende o que eu digo, não é, pai? Mas o que é esse movimento? Parece que estamos numa casa que se mexe. Mas não ouço o barulho das rodas.
+Após uma interrupção, a voz acrescentou:
+— Não distingo muito bem entre ontem e hoje. Não é uma queixa. Não sei o que ocorreu, mas alguma coisa deve ter acontecido.
+Essas palavras foram ditam com uma profunda e inconsolável ternura, e um suspiro, que Gwynplaine ouviu, terminou assim:
+— Preciso ir, a menos que ele volte.
+Melancólico, Ursus resmungou a meia voz:
+— Não acredito em assombrações.
+E continuou:
+— É um navio. Você perguntou por que a casa se mexe, é porque estamos num navio. Fique calma. Você não deve falar demais. Minha filha, se tiver um pouco de consideração por mim, não se agite, não vá ficar com febre. Velho como estou, eu não iria aguentar se você tivesse uma doença.
+Poupe-me, não fique doente.
+A voz recomeçou:
+— De que adianta procurar na terra, já que só encontramos no céu?
+Ursus replicou, tentando ser quase autoritário:
+— Acalme-se. Há momentos em que você não demonstra nenhuma inteligência. Recomendo que fique em repouso. Afinal, você não tem obrigação de saber o que é a veia cava. Vou ficar tranquilo se você estiver tranquila. Minha criança, faça também alguma coisa por mim. Ele a recolheu, mas eu a acolhi. Você me deixa doente. Assim é difícil. Você deve se acalmar e dormir. Tudo vai ficar bem. Dou minha palavra de honra que tudo vai ficar bem. Aliás, o tempo está muito bom. Parece uma noite feita especialmente para nossa viagem. Amanhã estaremos em Roterdã, que é uma cidade na Holanda, na foz do rio Mosa.
+— Sabe, pai — disse a voz —, quando a gente esteve o tempo todo junto de alguém, desde a infância, nada devia atrapalhar isso, porque agora só morrendo, porque não tem outro jeito. Eu também gosto muito do senhor, mas sinto de fato que não estou mais plenamente com o senhor, embora eu ainda não esteja com ele.
+— Vamos — insistiu Ursus —, trate de dormir outra vez.
+— Não é isso que me faz falta — respondeu ela.
+— Estou lhe dizendo — replicou Ursus com a voz trêmula — que vamos para a Holanda, para a cidade de Roterdã.
+— Pai — continuou a voz —, não estou doente, se é isso que o preocupa, pode ver, não estou com febre, só com um pouco de calor, mais nada.
+— Para a foz do Mosa — balbuciou Ursus.
+— Não tenho nada, pai, mas, sabe, sinto que estou morrendo.
+— Não pense uma coisa dessas — disse Ursus.
+E acrescentou:
+— E, acima de tudo, que ela não se assuste, meu Deus!
+Fez-se um silêncio.
+De repente, Ursus gritou:
+— O que está fazendo? Por que se levantou? Eu lhe suplico, fique deitada!
+Gwynplaine estremeceu e avançou a cabeça.

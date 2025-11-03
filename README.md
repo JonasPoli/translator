@@ -65,4 +65,52 @@ Crie um `modernizer_ptbr_overrides.json` ao lado do script, por exemplo:
 
 ## Limites / Filosofia
 - Romanceador é **heurístico** (sem IA remota). Ele alisa cadência e acrescenta pequenas reformulações sem inventar fatos.
-- Modernizador aplica substituições pt‑BR naturais pós‑tradução (com dicionário e regex).
+- Modernizador aplica substituições pt‑BR naturais pós-tradução (com dicionário e regex).
+
+## Reescrever (`reescrever.py`)
+
+Reescreve arquivos Markdown romanceando/modernizando prosa já traduzida. Possui três modos de operação:
+
+### 1. Heurístico local (padrão)
+- Não depende de modelos externos;
+- Reescreve de forma limitada (agora sem frases metalinguísticas);
+- Uso direto:
+  ```bash
+  python3 reescrever.py --in Reescrever/original.md --out Reescrever/gerado.md
+  ```
+
+### 2. GPT4All (modelo `.gguf`)
+- Instale a biblioteca no Python correto:
+  ```bash
+  python3 -m pip install gpt4all
+  ```
+- Baixe um modelo (ex.: `models/mistral-7b-instruct-v0.2.Q4_K_M.gguf`).
+- Execute:
+  ```bash
+  python3 reescrever.py --in Reescrever/original.md --out Reescrever/gerado.md --llm-model models/mistral-7b-instruct-v0.2.Q4_K_M.gguf
+  ```
+- Se o LLM inventar fatos, o script volta automaticamente ao modo heurístico.
+
+### 3. OpenAI (online opcional)
+- Copie `openai_config.json.example` para `openai_config.json` e informe `api_key` (e `base_url`, se necessário).
+- Instale `openai` no Python em uso:
+  ```bash
+  python3 -m pip install openai
+  ```
+- Rode com:
+  ```bash
+  python3 reescrever.py --in Reescrever/original.md --out Reescrever/gerado.md \
+    --use-openai --openai-config openai_config.json --openai-model gpt-4o-mini
+  ```
+- Prompt embutido exige expansão sensorial da prosa e explica termos incomuns dentro do próprio texto (sem notas de rodapé), mantendo fatos intactos.
+
+### Termos raros
+- Explicações vêm de `rare_terms_default.json` (base) + `rare_terms.json` (personalizável).
+- Elabore sua lista em `rare_terms.json` antes de rodar o script. Qualquer termo presente ali será convertido em “termo (explicação)” dentro da narrativa.
+
+O script indica no stderr a rota utilizada:
+- `[OpenAI] Reescrevendo seção via OpenAI (modo online).`
+- `[GPT4All] Reescrevendo seção via modelo local.`
+- Sem mensagem adicional = heurístico.
+
+Caso nenhuma camada funcione, o texto final virá do modo heurístico.

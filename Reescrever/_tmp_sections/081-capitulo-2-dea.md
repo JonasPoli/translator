@@ -1,0 +1,25 @@
+Então, o menino já era um homem. Quinze anos haviam se passado.
+Estávamos em 1705. Gwynplaine chegava a seus vinte e cinco anos.
+Ursus mantivera consigo as duas crianças. Formavam um grupo nômade.
+Ursus e Homo tinham envelhecido. Ursus se tornara completamente careca. O lobo estava grisalho. A idade dos lobos não é contada como a idade dos cães. Segundo Molin, há lobos que vivem oitenta anos, entre eles o pequeno koupara, cavioe vorus, e o lobo das grandes planícies de Say, canis nubilus.
+A menininha encontrada sobre a mulher morta era agora uma crescida criatura de dezesseis anos, pálida, de cabelos escuros, magra, frágil, quase trêmula de tanta delicadeza, chegando a dar medo de quebrá-la, admiravelmente bela, olhos cheios de luz, cega.
+A fatal noite de inverno, que derrubara a mendiga e sua criança na neve, havia feito um duplo estrago. Matara a mãe e cegara a menina.
+A gota serena 1 havia paralisado para sempre as pupilas daquela criança, agora uma mulher. Em seu rosto, através do qual a luz não passava, os cantos dos lábios, tristemente abaixados, expressavam esse amargo desapontamento.
+Seus olhos, grandes e claros, tinham esta estranheza: apagados para ela, para os outros brilhavam. Misteriosos fachos de luz iluminando apenas o exterior.
+Ela, que não tinha luz, irradiava luz. Os olhos ausentes resplandeciam. Essa cativa das trevas iluminava o meio sombrio onde se encontrava. Do fundo de sua escuridão incurável, por trás desse muro negro que chamamos de cegueira, ela irradiava luminosidade. Não enxergava o Sol no exterior, mas enxergava-se nela a alma.
+Seu olhar morto tinha algo de imobilidade celeste.
+Ela era a noite, e dessa sombra irremediável, amalgamada a ela mesma, despontava como uma estrela.
+Ursus, obcecado pelos nomes latinos, batizou-a Dea. Consultara um pouco seu lobo; dissera-lhe: Você representa o homem, eu represento o bicho; nós somos o mundo aqui de baixo. Essa pequena representará o mundo lá do alto. Toda essa fraqueza é a onipotência. Dessa forma, o universo inteiro — humanidade, animalidade, divindade — estará em nossa cabana.
+O lobo não fizera nenhuma objeção.
+E foi assim que a menina encontrada chamou-se Dea.
+Quanto a Gwynplaine, Ursus não se deu ao trabalho de inventar-lhe um nome. Na manhã do mesmo dia em que ele havia constatado a desfiguração do menino e a cegueira da menina, perguntara: Boy, como você se chama?.
+E o menino respondera: As pessoas me chamam de Gwynplaine.
+— Gwynplaine; pode ser — dissera Ursus.
+Dea ajudava Gwynplaine em seus exercícios.
+Se a miséria humana pudesse ser resumida, o seria em Gwynplaine e Dea. Pareciam ter nascido cada um em um compartimento do sepulcro;
+Gwynplaine no horrível, Dea no negro. Suas existências eram feitas de trevas de espécies diferentes, recolhidas nos dois formidáveis lados da noite. Essas trevas, Dea as tinha em seu interior, e Gwynplaine em seu exterior. Em Dea havia fantasma, e, em Gwynplaine, espectro. Dea estava no lúgubre, e Gwynplaine no pior. Havia para Gwynplaine, enxergando, uma pungente possibilidade que não existia para Dea, cega: comparar-se a outros homens.
+Ora, em uma situação como a de Gwynplaine, admitindo-se que ele procurasse tomar consciência dela, comparar-se era deixar de se compreender. Ter, como Dea, um olhar vazio, do qual o mundo está ausente, é um grande infortúnio, menor, no entanto, do que este: ser seu próprio enigma; sentir também algo de ausente que é seu próprio ser; ver o universo e não se ver. Dea tinha um véu, a escuridão, e Gwynplaine tinha uma máscara, seu rosto. Coisa indescritível: era com sua própria carne que Gwynplaine estava mascarado. Ignorava como era seu semblante. Sua fisionomia se desvanecera. Haviam-no envolvido em uma falsificação de si mesmo. Tinha como face uma ocultação. Sua cabeça vivia e seu rosto estava morto. Não se lembrava de um dia tê-lo visto. O gênero humano, tanto para Dea como para Gwynplaine, era um fato exterior; estavam distantes dele; ela era sozinha, ele era sozinho; o isolamento de Dea era fúnebre, ela não via nada; o isolamento de Gwynplaine era sinistro, ele via tudo. Para Dea, a criação não ia além da audição e do tato; o real era restrito, limitado, breve, logo perdido; tinha como infinito apenas a escuridão. Para Gwynplaine, viver era ter para sempre a multidão diante de si e fora de si. Dea era a proscrita da luz; Gwynplaine era o banido da vida. Certamente ali estavam dois desesperançados. O auge da calamidade possível fora alcançado. Haviam chegado lá, tanto ele como ela. Um observador que os tivesse visto teria sentido o próprio pensamento converter-se em incomensurável piedade. Quanto não deviam sofrer! Um decreto de infelicidade pesava visivelmente sobre essas duas criaturas humanas; a fatalidade, envolvendo dois seres que nada tinham feito, jamais transformara tão bem o destino em tortura e a vida em inferno.
+Estavam num paraíso.
+Amavam-se.
+Gwynplaine adorava Dea. Dea idolatrava Gwynplaine.
+— Você é tão lindo! — dizia-lhe ela.

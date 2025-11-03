@@ -21,6 +21,7 @@ import re
 import shutil
 import sys
 import unicodedata
+from difflib import SequenceMatcher
 from collections import Counter
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence, Set, Tuple
@@ -173,6 +174,18 @@ STOPWORDS_CAPS = {
     "Ainda", "Agora", "Aqui", "Ali", "Lá",
 }
 
+PORTUGUESE_STOPWORDS = {
+    "a", "o", "e", "os", "as", "um", "uma", "uns", "umas", "de", "da", "do",
+    "das", "dos", "em", "no", "na", "nos", "nas", "ao", "aos", "à", "às",
+    "para", "por", "com", "sem", "que", "como", "onde", "quando", "enquanto",
+    "porque", "porquê", "se", "ser", "ter", "foi", "era", "são", "está",
+    "estavam", "estava", "há", "houve", "até", "mais", "menos", "também",
+    "muito", "tudo", "todos", "todas", "cada", "mesmo", "mesma", "mesmos",
+    "mesmas", "todo", "toda", "pois", "então", "ainda", "já", "não", "sim",
+    "é", "será", "era", "eram", "lá", "ali", "aqui", "isso", "isto", "aquilo",
+    "essa", "esse", "esse", "essas", "esses",
+}
+
 DIALOGUE_TEMPLATES = [
     "{speaker} disse com franqueza: \"{line}\"",
     "{speaker} respondeu em voz firme: \"{line}\"",
@@ -195,128 +208,77 @@ DEFAULT_SUBJECTS = [
     "a memória presente",
 ]
 
-ADDITIONAL_SENTENCES = [
-    "O ambiente permanecia tingido por {mood}, sem alterar um detalhe do que já havia acontecido.",
-    "O silêncio ao redor guardava {mood}, reforçando cada gesto que acabara de ocorrer.",
-    "A lembrança daquele instante se alongava em {mood}, dando corpo às sensações que já existiam.",
-    "Tudo à volta parecia conservar {mood}, como se o tempo estivesse atento aos mesmos fatos.",
-    "Respirava-se {mood} em cada pausa, insistindo para que a cena permanecesse viva.",
-]
+FOCUS_PREFIX_STRIP = {"Em", "No", "Na", "Nos", "Nas", "Ao", "Aos", "À", "Pelo", "Pela", "Pelos", "Pelas", "Do", "Da", "Dos", "Das", "O", "A"}
 
-ALLOWED_EXTRA_WORDS = {
-    "sensação",
-    "sensações",
-    "atmosfera",
-    "atmosferas",
-    "tom",
-    "tons",
-    "clima",
-    "climas",
-    "ritmo",
-    "ritmos",
-    "cadência",
-    "cadências",
-    "presença",
-    "presenças",
-    "memória",
-    "memórias",
-    "eco",
-    "ecos",
-    "pulso",
-    "pulsa",
-    "pulsava",
-    "respira",
-    "respirava",
-    "respirando",
-    "respirar",
-    "vibração",
-    "vibrações",
-    "textura",
-    "texturas",
-    "palpável",
-    "palpáveis",
-    "intensidade",
-    "intensidades",
-    "sutil",
-    "sutis",
-    "delicado",
-    "delicada",
-    "delicadas",
-    "profundo",
-    "profunda",
-    "profundas",
-    "profundidade",
-    "profundidades",
-    "silêncio",
-    "silêncios",
-    "silencioso",
-    "silenciosa",
-    "calma",
-    "calmaria",
-    "calmas",
-    "brisa",
-    "brisas",
-    "tensão",
-    "tensões",
-    "afeto",
-    "afetos",
-    "tradição",
-    "tradições",
-    "história",
-    "histórias",
-    "tempo",
-    "tempos",
-    "presente",
-    "grandiosidade",
-    "grandeza",
-    "contorno",
-    "contornos",
-    "paisagem",
-    "paisagens",
-    "cenário",
-    "cenários",
-    "cena",
-    "cenas",
-    "aurora",
-    "brilho",
-    "brilhos",
-    "luz",
-    "luzes",
-    "calor",
-    "frio",
-    "fria",
-    "sopro",
-    "suave",
-    "energia",
-    "energias",
-    "alma",
-    "almas",
-    "marca",
-    "marcas",
-    "perfume",
-    "perfumes",
-    "batida",
-    "batidas",
-    "compasso",
-    "compassos",
-    "metáfora",
-    "metáforas",
-}
+RARE_TERMS: Dict[str, str] = {}
 
 LLM_SYSTEM_PROMPT = (
-    "Você é um escritor brasileiro contemporâneo. Reescreva qualquer parágrafo mantendo os fatos, "
-    "respeitando a ordem dos acontecimentos e ampliando sensações e atmosferas com linguagem atual."
+    "Reescreva o texto a seguir deixando-o mais envolvente, fluido e emocionalmente rico, como se fosse escrito por um autor brasileiro contemporâneo.\n"
+    "Mantenha o sentido original, mas melhore o ritmo, a clareza e a beleza da linguagem.\n\n"
+    "Aplique todas as instruções abaixo de forma consistente.\n\n"
+    " Objetivo\n\n"
+    "Aprimorar o texto literário tornando-o:\n\n"
+    "mais natural e prazeroso de ler;\n\n"
+    "com frases curtas, equilibradas e expressivas;\n\n"
+    "com emoção, ritmo e sensorialidade;\n\n"
+    "mantendo o mesmo conteúdo e atmosfera do original.\n\n"
+    "✍️ Estilo desejado\n\n"
+    "Português brasileiro atual, elegante, mas fácil de entender.\n\n"
+    "Narrativa fluida e poética, com ritmo de respiração (pausas e variações de intensidade).\n\n"
+    "Linguagem emocional, visual e cinematográfica.\n\n"
+    "Inspiração em autores brasileiros modernos como Martha Medeiros, Itamar Vieira Junior, Milton Hatoum, Carpinejar, Conceição Evaristo e Clarice Lispector (em tom narrativo).\n\n"
+    " Regras de reescrita\n\n"
+    "Preserve o conteúdo, o enredo e os sentimentos originais.\n\n"
+    "Simplifique frases longas, sem perder o sentido poético.\n\n"
+    "Evite termos arcaicos ou formais demais.\n\n"
+    "Ex: “ó”, “todavia”, “dilaceramento”, “pleno” → substitua por termos mais naturais.\n\n"
+    "Use frases curtas e com ritmo.\n\n"
+    "Alterne períodos curtos e médios para dar musicalidade.\n\n"
+    "Dê vida às emoções: mostre o que os personagens sentem com gestos, respiração, calor, vertigem, tremor, etc.\n\n"
+    "Use imagens sensoriais.\n\n"
+    "Substitua abstrações por percepções (som, toque, luz, cor, temperatura).\n\n"
+    "Use travessões (—) para falas e expressões diretas, com naturalidade.\n\n"
+    "Evite redundâncias e palavras repetidas.\n\n"
+    "Crie pausas visuais (linhas em branco entre blocos de emoção ou ação).\n\n"
+    "Não altere o tempo, local ou personagens originais.\n\n"
+    " Técnicas sugeridas\n\n"
+    "Mostrar em vez de contar:\n"
+    "“Ela estava nervosa” → “As mãos dela tremiam, e o ar parecia faltar.”\n\n"
+    "Ritmo respirado:\n"
+    "Intercale ação e sensação:\n"
+    "“Ela parou. Olhou. E o mundo pareceu suspenso por um instante.”\n\n"
+    "Imagens concretas:\n"
+    "“Sentiu a alma leve” → “Sentiu o peito abrir, como se o ar tivesse ficado mais claro.”\n\n"
+    "Voz interna sutil:\n"
+    "Adicione pensamentos curtos, naturais, que expressem emoção real.\n\n"
+    " Formato do resultado\n\n"
+    "Texto final limpo, pronto para publicação.\n\n"
+    "Mantém os parágrafos separados, com ritmo fluido.\n\n"
+    "Se houver diálogos, preserve-os com travessões e pausas realistas.\n\n"
+    "Sem comentários, explicações ou listas — apenas o texto reescrito.\n\n"
+    " Exemplo de uso\n\n"
+    "Prompt:\n"
+    "“Reescreva o texto abaixo conforme as instruções.”\n\n"
+    "Texto:\n"
+    "“A lua subia devagar. O vento passava frio pela janela. Ele pensava nela, e o coração doía.”\n\n"
+    "Resultado esperado:\n"
+    "“A lua subia lenta, desenhando um rastro de prata na noite.\n"
+    "O vento entrava pela janela e roçava o rosto dele, frio e silencioso.\n"
+    "Pensou nela — e o peito apertou como se o tempo tivesse parado.”"
 )
 
 LLM_USER_TEMPLATE = (
-    "Texto original:\n{original}\n\n"
-    "Reescreva o texto acima em português brasileiro atual, mantendo exatamente os mesmos fatos e a mesma ordem, "
-    "mas expandindo descrições sensoriais e emoções. Substitua abreviações por extenso e deixe claro quem fala, "
-    "caso haja diálogos. Responda somente com o texto reescrito."
+    "Melhore o texto literário a seguir deixando-o mais fluido, natural e emocionante. "
+    "Use português brasileiro moderno, frases curtas, ritmo poético e linguagem sensorial. "
+    "Preserve o sentido, mas simplifique a estrutura e aprofunde a emoção. "
+    "Escreva como um autor brasileiro contemporâneo.\n\n"
+    "Trecho original:\n{original}\n\n"
+    "Texto reescrito:"
 )
 
 LLM_MODEL_CACHE: Dict[str, GPT4All] = {}
 
+VALIDATION_DEBUG = bool(os.getenv("REWRITE_DEBUG"))
 
 def _apply_word_swaps(text: str) -> str:
     replacements = {
@@ -459,17 +421,35 @@ def rewrite_section_openai(section_text: str, client: Any, model_name: str) -> s
         success = True
         for subchunk in subchunks:
             cleaned_candidate = ""
-            for temp in (0.7, 0.85, 0.6):
+            forbidden_phrases = extract_forbidden_phrases(subchunk)
+            extra_block = ""
+            if forbidden_phrases:
+                listed = "\n".join(f"- {phrase}" for phrase in forbidden_phrases)
+                extra_block = (
+                    "\n\nFrases do original que NÃO podem aparecer de forma literal ou com a mesma ordem:\n"
+                    f"{listed}"
+                )
+            base_prompt = LLM_USER_TEMPLATE.format(original=subchunk) + extra_block
+            for attempt, temp in enumerate((0.75, 0.9, 0.6)):
+                user_prompt = base_prompt
+                if attempt > 0:
+                    user_prompt += (
+                        "\n\nO texto anterior permaneceu próximo do original. Reescreva de novo "
+                        "sem repetir nenhuma frase ou expressão inicial. Reformule cada oração com verbos e imagens novas, "
+                        "use quebras de linha e dê ritmo respirado."
+                    )
                 try:
                     response = client.chat.completions.create(
                         model=model_name,
                         messages=[
                             {"role": "system", "content": LLM_SYSTEM_PROMPT},
-                            {"role": "user", "content": LLM_USER_TEMPLATE.format(original=subchunk)},
+                            {"role": "user", "content": user_prompt},
                         ],
                         temperature=temp,
-                        top_p=0.9,
-                        max_tokens=600,
+                        top_p=0.85,
+                        presence_penalty=1.0,
+                        frequency_penalty=0.8,
+                        max_tokens=800,
                     )
                 except Exception:
                     cleaned_candidate = ""
@@ -484,6 +464,8 @@ def rewrite_section_openai(section_text: str, client: Any, model_name: str) -> s
                 if validate_rewrite(subchunk, cleaned):
                     cleaned_candidate = cleaned
                     break
+                else:
+                    print("[OpenAI] Saída rejeitada pela validação, tentando novamente.", file=sys.stderr)
             if not cleaned_candidate:
                 success = False
                 break
@@ -500,7 +482,11 @@ def validate_rewrite(original: str, rewritten: str) -> bool:
 
     new_word_count = len(rewritten.split())
     original_word_count = max(len(original.split()), 1)
-    if new_word_count < original_word_count * 1.15:
+    growth_ratio = new_word_count / original_word_count
+    if growth_ratio < 0.6:
+        if VALIDATION_DEBUG:
+            preview = rewritten.strip().splitlines()[0] if rewritten.strip() else ""
+            print(f"[validate] Rejeitado por crescimento insuficiente ({growth_ratio:.2f}) -> {preview[:120]!r}", file=sys.stderr)
         return False
 
     lower = rewritten.lower()
@@ -508,21 +494,22 @@ def validate_rewrite(original: str, rewritten: str) -> bool:
         if banned in lower:
             return False
 
-    orig_words = {w.lower() for w in re.findall(r"[A-Za-zÀ-ÿ'-]+", original)}
-    new_words = {w.lower() for w in re.findall(r"[A-Za-zÀ-ÿ'-]+", rewritten)}
-    extra_words = new_words - orig_words
-    if extra_words - ALLOWED_EXTRA_WORDS:
+    similarity = SequenceMatcher(None, original.lower(), rewritten.lower()).ratio()
+    if similarity > 0.97:
+        if VALIDATION_DEBUG:
+            preview = rewritten.strip().splitlines()[0] if rewritten.strip() else ""
+            print(f"[validate] Rejeitado por similaridade alta ({similarity:.3f}) -> {preview[:120]!r}", file=sys.stderr)
         return False
 
-    orig_names = {name.lower() for name in collect_names(original)}
-    new_names = {name.lower() for name in collect_names(rewritten)}
+    orig_names = {name.lower() for name in extract_known_names(original)}
+    new_names = {name.lower() for name in collect_names(rewritten) if name}
 
     for name in orig_names:
-        if name and name not in new_names:
+        if name not in new_names:
+            if VALIDATION_DEBUG:
+                preview = rewritten.strip().splitlines()[0] if rewritten.strip() else ""
+                print(f"[validate] Rejeitado por remover nome essencial ({name}) -> {preview[:120]!r}", file=sys.stderr)
             return False
-
-    if new_names - orig_names:
-        return False
 
     return True
 
@@ -558,10 +545,25 @@ def rewrite_section_llm(section_text: str, model: GPT4All) -> str:
         success = True
         for subchunk in subchunks:
             cleaned_candidate = ""
-            for temp in (0.8, 0.9, 0.7):
+            forbidden_phrases = extract_forbidden_phrases(subchunk)
+            extra_block = ""
+            if forbidden_phrases:
+                listed = "\n".join(f"- {phrase}" for phrase in forbidden_phrases)
+                extra_block = (
+                    "\n\nFrases do original que NÃO podem ser repetidas literalmente:\n"
+                    f"{listed}"
+                )
+            base_prompt = LLM_USER_TEMPLATE.format(original=subchunk) + extra_block
+            for attempt, temp in enumerate((0.85, 0.95, 0.7)):
+                user_prompt = base_prompt
+                if attempt > 0:
+                    user_prompt += (
+                        "\n\nO texto anterior ainda ficou próximo do original. Reescreva novamente "
+                        "sem repetir frases, mude completamente a ordem e o vocabulário, use ritmo moderno e imagens sensoriais."
+                    )
                 with model.chat_session(system_prompt=LLM_SYSTEM_PROMPT):
                     response = model.generate(
-                        LLM_USER_TEMPLATE.format(original=subchunk),
+                        user_prompt,
                         temp=temp,
                         top_p=0.9,
                         max_tokens=512,
@@ -576,6 +578,8 @@ def rewrite_section_llm(section_text: str, model: GPT4All) -> str:
                 if validate_rewrite(subchunk, cleaned):
                     cleaned_candidate = cleaned
                     break
+                else:
+                    print("[GPT4All] Saída rejeitada pela validação, tentando novamente.", file=sys.stderr)
             if not cleaned_candidate:
                 success = False
                 break
@@ -764,6 +768,18 @@ def split_sentences(paragraph: str) -> List[str]:
     return [s.strip() for s in raw if s.strip()]
 
 
+def extract_forbidden_phrases(text: str, limit: int = 6) -> List[str]:
+    phrases: List[str] = []
+    for sentence in split_sentences(text):
+        cleaned = sentence.strip()
+        if len(cleaned) < 5:
+            continue
+        phrases.append(cleaned)
+        if len(phrases) >= limit:
+            break
+    return phrases
+
+
 def collect_names(text: str) -> List[str]:
     candidates = re.findall(r"\b[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-Za-zÁÉÍÓÚÂÊÔÃÕÇáéíóúâêôãõç'-]+\b", text)
     filtered = [c for c in candidates if c not in STOPWORDS_CAPS and len(c) > 1]
@@ -778,21 +794,15 @@ def extract_known_names(text: str) -> Set[str]:
 
 
 def rewrite_dialogue(sentence: str, last_name: Optional[str]) -> str:
-    cleaned = sentence.strip()
-    if cleaned.startswith(("—", "–")):
-        cleaned = cleaned[1:].strip()
-    if "—" in cleaned:
-        spoken = cleaned.split("—", 1)[0].strip()
-    else:
-        spoken = cleaned
-    spoken = re.split(r"\s*,\s*(?:disse|falou|perguntou|replicou|comentou)\b", spoken, 1)[0]
-    spoken = spoken.replace("“", "").replace("”", "")
-    spoken = spoken.strip(".,;:—– ")
-    if spoken and spoken[-1] not in ".!?":
-        spoken = f"{spoken}."
-    speaker = last_name or "O narrador"
-    template = random.choice(DIALOGUE_TEMPLATES)
-    return template.format(speaker=speaker, line=spoken)
+    # Preserve the original fala sem criar narrador fictício.
+    stripped = sentence.strip()
+    if not stripped:
+        return sentence
+    if stripped.startswith("—"):
+        return "— " + stripped[1:].strip()
+    if stripped.startswith("–"):
+        return "– " + stripped[1:].strip()
+    return stripped
 
 
 def paraphrase_sentence(sentence: str) -> str:
@@ -835,25 +845,76 @@ def augment_sentence(sentence: str, state: Dict[str, object]) -> str:
     letters_without_quotes = re.sub(r"[\"“”]", "", core)
     if len(letters_without_quotes) < 40 or random.random() < 0.45:
         return core
-    mood = random.choice(ABSTRACT_MOODS)
-    subject = state.get("last_name")
-    if isinstance(subject, str) and subject:
-        subject_str = subject
-    else:
-        subject_str = random.choice(DEFAULT_SUBJECTS)
-    history = state.setdefault("recent_expansions", [])
-    available = [exp for exp in MOOD_EXPANSIONS if exp not in history]
-    if not available:
-        history.clear()
-        available = list(MOOD_EXPANSIONS)
-    addition_template = random.choice(available)
-    addition = addition_template.format(subject=subject_str, mood=mood)
-    history.append(addition_template)
-    if len(history) > 5:
-        history.pop(0)
-    if core.endswith((".", "!", "?")):
-        return f"{core} {addition}"
-    return f"{core}. {addition}"
+    # Para reduzir comentários metalinguísticos, não acrescentamos frases extras na heurística.
+    return core
+
+
+def select_focus(sentence: str, state: Dict[str, object]) -> Optional[str]:
+    # Procura sequências de palavras iniciadas por maiúsculas (ex.: "Hauteville House").
+    capital_sequences = re.findall(r"(?:[A-ZÁÉÍÓÚÂÊÔÃÕÇ][\w-]+(?:\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ][\w-]+)*)", sentence)
+    for seq in reversed(capital_sequences):
+        words = seq.strip().split()
+        while words and words[0] in FOCUS_PREFIX_STRIP:
+            words.pop(0)
+        if not words:
+            continue
+        stripped = " ".join(words)
+        first_token = words[0]
+        if first_token in STOPWORDS_CAPS:
+            continue
+        return stripped
+    names = collect_names(sentence)
+    known_names = state.get("known_names")
+    if isinstance(known_names, set):
+        for candidate in reversed(names):
+            if candidate not in STOPWORDS_CAPS and candidate in known_names:
+                return candidate
+    for candidate in reversed(names):
+        if candidate not in STOPWORDS_CAPS:
+            return candidate
+    tokens = re.findall(r"[A-Za-zÀ-ÿ'-]+", sentence)
+    for token in tokens:
+        if token and token[0].isupper() and token not in STOPWORDS_CAPS:
+            return token
+    return None
+
+
+def explain_rare_terms(sentence: str) -> str:
+    def replace(match: re.Match) -> str:
+        word = match.group(0)
+        key = word.lower()
+        explanation = RARE_TERMS.get(key)
+        if not explanation:
+            return word
+        # Evita duplicar explicação se já existir parênteses logo após
+        tail = sentence[match.end():match.end()+2]
+        if tail.startswith("("):
+            return word
+        if word[0].isupper():
+            explanation_text = explanation[0].upper() + explanation[1:]
+        else:
+            explanation_text = explanation
+        return f"{word} ({explanation_text})"
+
+    pattern = re.compile(r"\b(" + "|".join(map(re.escape, RARE_TERMS.keys())) + r")\b", flags=re.IGNORECASE)
+    return pattern.sub(replace, sentence)
+
+
+def load_rare_terms(default_path: Path, user_path: Path) -> Dict[str, str]:
+    combined: Dict[str, str] = {}
+    if default_path.exists():
+        try:
+            combined.update(json.loads(default_path.read_text(encoding="utf-8")))
+        except Exception as exc:
+            print(f"[RareTerms] Não foi possível ler {default_path}: {exc}", file=sys.stderr)
+    if user_path.exists():
+        try:
+            combined.update(json.loads(user_path.read_text(encoding="utf-8")))
+        except Exception as exc:
+            print(f"[RareTerms] Não foi possível ler {user_path}: {exc}", file=sys.stderr)
+    return {k.lower(): v for k, v in combined.items()}
+
+
 
 
 def rewrite_paragraph(paragraph: str, state: Dict[str, object]) -> str:
@@ -871,6 +932,7 @@ def rewrite_paragraph(paragraph: str, state: Dict[str, object]) -> str:
             new_sentence = rewrite_dialogue(sentence, last_name)
         else:
             new_sentence = smooth_sentence(sentence, state)
+            new_sentence = explain_rare_terms(new_sentence)
         names = collect_names(new_sentence)
         for n in names:
             known_names.add(n)
@@ -883,9 +945,6 @@ def rewrite_paragraph(paragraph: str, state: Dict[str, object]) -> str:
         rewritten.append(new_sentence)
     if not rewritten:
         return ""
-    paragraph_extra = random.choice(ABSTRACT_MOODS)
-    closing = random.choice(PARAGRAPH_CLOSERS).format(mood=paragraph_extra)
-    rewritten.append(closing)
     return normalize_sentence_case(" ".join(rewritten))
 
 
@@ -908,6 +967,7 @@ def rewrite_section(
 ) -> str:
     if openai_client is not None and openai_model:
         try:
+            print("[OpenAI] Reescrevendo seção via OpenAI (modo online).", file=sys.stderr)
             output = rewrite_section_openai(section_text, openai_client, openai_model)
             if output.strip():
                 return output
@@ -915,6 +975,7 @@ def rewrite_section(
             print(f"[OpenAI] Falha ao reescrever seção: {exc}", file=sys.stderr)
     if llm is not None:
         try:
+            print("[GPT4All] Reescrevendo seção via modelo local.", file=sys.stderr)
             output = rewrite_section_llm(section_text, llm)
             if output.strip():
                 return output
@@ -948,6 +1009,7 @@ def process_file(
     llm: Optional[GPT4All],
     openai_client: Any = None,
     openai_model: Optional[str] = None,
+    rare_terms_path: Optional[Path] = None,
 ) -> None:
     random.seed(42)
     raw_text = input_path.read_text(encoding="utf-8")
@@ -987,6 +1049,7 @@ def main() -> None:
     parser.add_argument("--use-openai", dest="use_openai", action="store_true", help="Ativa reescrita via API da OpenAI")
     parser.add_argument("--openai-config", dest="openai_config", default="openai_config.json", help="Arquivo JSON com api_key/base_url da OpenAI")
     parser.add_argument("--openai-model", dest="openai_model", default="gpt-4o-mini", help="Modelo da OpenAI a ser usado")
+    parser.add_argument("--rare-terms", dest="rare_terms", default="rare_terms.json", help="Arquivo JSON de termos raros e suas explicações")
     args = parser.parse_args()
 
     input_path = Path(args.input_path).expanduser().resolve()
@@ -995,6 +1058,14 @@ def main() -> None:
 
     if not input_path.exists():
         raise FileNotFoundError(f"Arquivo de entrada não encontrado: {input_path}")
+
+    script_dir = Path(__file__).resolve().parent
+    default_rare_terms_path = script_dir / "rare_terms_default.json"
+    rare_terms_path = Path(args.rare_terms).expanduser().resolve()
+
+    loaded_rare_terms = load_rare_terms(default_rare_terms_path, rare_terms_path)
+    RARE_TERMS.clear()
+    RARE_TERMS.update(loaded_rare_terms)
 
     llm: Optional[GPT4All] = None
     use_llm = not args.no_llm
@@ -1026,6 +1097,7 @@ def main() -> None:
         llm if use_llm else None,
         openai_client=openai_client,
         openai_model=openai_model,
+        rare_terms_path=rare_terms_path if rare_terms_path else None,
     )
 
 

@@ -1,0 +1,45 @@
+Era em Weymouth que ele acabava de entrar.
+A Weymouth de então não era a honorável e admirável Weymouth de agora. A antiga Weymouth não tinha, como a Weymouth atual, um irretocável cais retilíneo, com uma estátua e um hotel em homenagem a Jorge Terceiro. Isso porque Jorge Terceiro ainda não era nascido. Pelo mesmo motivo, também não havia, na encosta da verdejante colina a leste, desenhado no chão com grama aparada e cal, aquele cavalo branco com um arpente de comprimento, o White Horse, levando um rei no lombo e tendo seu rabo apontado para a cidade, sempre em homenagem a Jorge Terceiro.Homenagens, aliás, merecidas.
+Jorge Terceiro, tendo perdido na velhice o juízo que jamais tivera na juventude, não pode ser responsabilizado pelas calamidades do seu reinado. Era um inocente. Por que não erguer-lhe estátuas?
+A Weymouth de cento e oitenta anos atrás era aproximadamente tão simétrica quanto um jogo de varetas esparramado. O Astaroth 4 das lendas passeava às vezes pela terra levando nas costas uma sacola, dentro da qual havia de tudo, até mesmo boas mulheres em suas casas. Um amontoado confuso de casebres caído dessa sacola do diabo daria uma ideia dessa Weymouth defeituosa. Inclusive das boas mulheres dentro dos casebres.
+Como exemplo dessas habitações resta a casa dos Músicos. Uma mistura de pardieiros de madeira esculpidos e carcomidos, o que já é outra escultura;
+informes construções instáveis fora do prumo, algumas com pilares, apoiadas umas nas outras para não cair com o vento marítimo, tendo entre elas espaçamentos exíguos de ruas tortuosas e desordenadas, vielas e cruzamentos muitas vezes inundados pelas marés do equinócio; uma aglomeração de velhas casas avós agrupadas em volta de uma igreja bisavó, isso era Weymouth. Weymouth era uma espécie de vilarejo normando encalhado na costa da Inglaterra.
+Se um viajante entrasse na taverna, hoje substituída pelo hotel, em vez de pagar regiamente vinte e cinco francos por um linguado frito e uma garrafa de vinho, passava pela humilhação de tomar, por dois soldos, uma sopa de peixe, por sinal muito boa. Era algo miserável.
+O menino perdido, levando a criança encontrada, seguiu a primeira rua, depois a segunda, depois uma terceira. Olhava para o alto procurando nos pavimentos superiores e nos telhados alguma janela iluminada, mas tudo estava fechado e apagado. De vez em quando batia nas portas. Ninguém respondia. Nada faz um coração ficar tão duro como estar bem aquecido entre os lençóis. O barulho e o sacolejar acabaram por despertar a pequena, o que ele percebeu porque sentia a face ser-lhe sugada. Ela não chorava, acreditando ser ele uma mãe.
+Talvez ele ficasse dando voltas e rodando por muito tempo nas travessas das ruelas de Scrambridge, onde naquela época havia mais plantações do que casas, e mais cercas vivas do que moradias, mas se aventurou por um corredor que existe ainda hoje perto de Trinity Schools. Esse corredor levouo a uma praia onde havia um rudimento de píer com um parapeito; à direita, viu uma ponte.
+Essa ponte era a ponte do Wey, que liga Weymouth a Melcomb Regis;
+sob seus arcos, Harbour se comunica com Back Water.
+Weymouth, aldeia, era então o arrabalde de Melcomb Regis, cidade e porto; hoje em dia, Melcomb Regis é um distrito de Weymouth. A aldeia absorveu a cidade. Foi por essa ponte que esse trabalho foi realizado. As pontes são singulares aparelhos de sucção, que aspiram a população e algumas vezes fazem um bairro ribeirinho prosperar à custa do que há do outro lado.
+O menino foi até a ponte, que naquela época era uma passarela de madeira coberta. Atravessou a passarela.
+Graças à cobertura da ponte, não havia neve sobre a madeira. Seus pés nus tiveram um momento de bem-estar pisando sobre as pranchas secas.
+Tendo atravessado a ponte, chegou a Melcomb Regis.
+Ali havia menos casas de madeira que de pedra. Não era mais o arrabalde, mas a cidade. A ponte desembocava em uma rua bem bonita, a Saint Thomas Street. Seguiu-a. A rua ostentava altos frontões entalhados e, aqui e ali, vitrines de lojas. Ele tornou a bater nas portas. Não lhe restava força suficiente para chamar e gritar.
+Tanto em Melcomb Regis como em Weymouth ninguém se mexia.
+Haviam trancado tudo a sete chaves. As janelas estavam cobertas por suas venezianas, como os olhos por suas pálpebras. Todas as precauções haviam sido tomadas contra o despertar, desagradável sobressalto.
+O pequeno errante sofria a indefinível pressão da cidade adormecida.
+Esse silêncio de formigueiro paralisado causa vertigem. Em toda essa letargia há uma mistura de pesadelos, os sonos formam uma multidão, e desses corpos humanos estendidos emana uma fumaça de sonhos. O sono tem sombrias vizinhanças fora da vida; o pensamento descomposto dos que dormem paira acima deles, vapor vivo e morto, combinando-se com o possível, que provavelmente também pensa dentro do espaço.Daí alguns enredamentos. O sonho, essa nuvem, sobrepõe suas espessuras e transparências àquela estrela, o espírito. Acima dessas pálpebras fechadas, onde a visão substituiu o olhar, uma desagregação sombria de silhuetas e de aparências dilata-se no impalpável. Uma dispersão de existências misteriosas funde-se à nossa vida por essa fronteira da morte que é o sono. Esses entrelaçamentos de larvas e almas estão no ar. Mesmo aquele que não dorme sente sobre si o peso dessa atmosfera cheia de vida sinistra. A quimera circundante, realidade pressentida, é perturbadora. O homem desperto, que caminha através dos fantasmas do sono alheio, rechaça confusamente as sombras que passam, tem, ou acredita ter, o vago horror aos contatos hostis do invisível, e sente a cada instante a força obscura de um encontro inexprimível que se dissipa. Há efeitos de floresta nessa caminhada por entre a difusão noturna dos sonhos.
+Isso é o que se chama ter medo sem saber por quê.
+O que um homem sente, uma criança sente mais ainda.
+O incômodo do pavor noturno, amplificado por aquelas casas espectrais, juntava-se a todo esse lúgubre conjunto sob o qual ele lutava.
+Entrou na Conycar Lane e viu, na extremidade dessa ruela, Black Water, pensando que fosse o oceano. Já não sabia de que lado estava o mar. Deu meia volta, pegou à esquerda a Maiden Street e retornou à Saint Albans Row.
+Ali, ao acaso, sem escolher, bateu com violência à porta das primeiras casas que encontrou. Essas batidas, que esgotavam suas últimas forças, eram bruscas e desordenadas, com intermitências e repetições irritadiças. Era o martelar de sua febre contra as portas.
+Uma voz respondeu.
+A voz da hora.
+Três da manhã soaram lentamente atrás dele, no velho campanário de Saint Nicholas.
+Depois, tudo voltou ao silêncio.
+Pode parecer surpreendente que nenhum habitante tenha aberto sequer uma fresta, mas de certa forma esse silêncio se explica. É preciso esclarecer que, em janeiro de 1690, uma forte epidemia de peste que infestara Londres acabava de chegar ao fim, e que o medo de receber forasteiros contaminados fazia diminuir a hospitalidade em todos os lugares. Não entreabriam nem mesmo as janelas, com medo de aspirar seus miasmas.
+O menino percebeu que o frio humano era mais terrível que o frio da noite. É um frio deliberado. Sentiu aquele aperto do coração desanimado, que não sentira na solidão. Agora entrava na vida de todos, mas continuava só.
+Angústia extrema. O impiedoso deserto ele compreendera, mas a cidade inflexível já era demais.
+A hora, da qual acabava de contar as pancadas, era um abatimento a mais. Em certos casos, nada pode ser mais desconcertante que o soar das horas. É uma declaração de indiferença. É a eternidade dizendo: — Que me importa!
+Ele parou. Impossível saber se naquele momento lamentável não chegou a cogitar que seria mais fácil deitar ali mesmo e morrer. Mas a pequenina encostou a cabeça em seu ombro e voltou a dormir. Essa cega confiança o fez voltar a andar.
+Ele, que só tinha desamparo à sua volta, sentiu-se ponto de apoio.
+Profunda intimação do dever.
+Nem essas ideias nem essa situação eram coisas para sua idade. É
+provável que não as compreendesse. Agia por instinto. Simplesmente fazia o que fazia.
+Caminhou na direção da Johnstone Row.
+Porém já não andava, se arrastava.
+Deixou a Saint-Mary Street à esquerda, fez ziguezagues pelas ruelas e, no final de um beco sinuoso, entre dois casebres, viu-se em um espaço livre bem amplo. Era um terreno baldio, sem nenhuma construção, provavelmente o local onde hoje é Chesterfield Place. As casas terminavam ali. À sua direita, entrevia o mar, e quase nada mais da cidade à sua esquerda.
+O que fazer? O campo reaparecia. A leste, grandes planos inclinados marcavam as largas encostas de Radipole. Devia continuar essa viagem?
+Devia avançar e encontrar novamente a solidão? Devia recuar e voltar para as ruas? O que fazer com esses dois silêncios? Qual dessas recusas escolher?
+Existe uma âncora de misericórdia, assim como existe um olhar de misericórdia. Foi esse olhar que o pobre menino desesperado lançou ao seu redor.
+De repente, ouviu uma ameaça.

@@ -1,0 +1,20 @@
+O wapentake entrou depois de Gwynplaine.
+Em seguida, o justiceiro-quorum.
+Depois, o pelotão inteiro.
+O guichê se fechou novamente.
+A porta voltou a se encaixar hermeticamente em suas guarnições de pedra, sem que se visse quem a havia aberto e quem a havia fechado. Parecia que os trincos entravam por conta própria em suas cavidades. Alguns desses mecanismos, inventados pelas velhas formas de intimidação, ainda existem nas casas de correção mais antigas. Porta da qual não se via o porteiro, fazendo a soleira da prisão se parecer com a soleira de um túmulo.
+Esse guichê era a porta secundária da prisão de Southwark.
+Nada naquele edifício carcomido e rústico desmentia a típica aparência descortês de uma prisão.
+Um templo pagão, construído pelos velhos Cattieuchlans para os Mogons, antigos deuses ingleses, que se tornou palácio para o rei Etelvulfo de Wessex e fortaleza para o rei Santo Eduardo, e, mais adiante, em 1199, elevado à dignidade de prisão por João Sem Terra: essa era a prisão de Southwark. Essa prisão, inicialmente atravessada por uma rua, assim como o castelo de Chenonceaux era atravessado por um rio, havia sido, durante um ou dois séculos, um gate, ou seja, um portal de entrada da cidade; depois, a passagem foi murada. Restam algumas prisões desse tipo na Inglaterra: em Londres, Newgate; em Canterbury, Westgate; em Edimburgo, Canongate. Na França, a Bastilha havia sido um portal.
+Quase todas as prisões da Inglaterra tinham o mesmo aspecto: um grande muro do lado de fora; dentro, uma colmeia de celas. Nada era mais funesto que essas góticas cadeias onde a aranha e a justiça faziam suas teias, e onde John Howard, 6 essa luz, ainda não havia penetrado. Todas, como a antiga geena de Bruxelas, poderiam ser chamadas de Treurenberg, casa dos prantos.
+Diante dessas construções inclementes e selvagens, sentia-se a mesma angústia que sentiam os antigos navegadores diante dos infernos de escravos dos quais fala Plauto, ilhas ferricrepitantes, ferricrepiditœ insulœ, quando passavam suficientemente perto para ouvir o barulho das correntes.
+A prisão de Southwark, antigo local de exorcismos e torturas, no princípio fora especializada em feiticeiros, como indicam estes dois versos gravados em uma pedra rústica acima da porta:
+Sunt arreptitii vexati dœmone multo.
+Est energumenus quem dœmon possidet unus.
+Versos que firmam a delicada nuança entre o endemoninhado e o energúmeno.
+Acima dessa inscrição, encontrava-se presa ao muro — sinal de alta justiça — uma escada patibular, outrora de madeira, mas transformada em pedra de tanto ser fincada na terra petrificante daquele lugar chamado Aspley Gowis, perto da abadia de Woburn.
+A prisão de Southwark, hoje demolida, dava para duas ruas, às quais, na função de portal, antigamente servira de comunicação, tendo dois portões. Na rua principal, o portão solene, destinado às autoridades, e, na viela, o portão da amargura, destinado ao restante dos vivos. E também aos mortos, pois, quando um prisioneiro morria, era por ali que o cadáver saía. Uma forma de libertação como qualquer outra.
+A morte é o livramento no infinito.
+Era por essa entrada da amargura que Gwynplaine acabava de ser introduzido na prisão.
+A ruazinha, já dissemos, não passava de um caminho de pedra, espremido entre dois muros. Em Bruxelas existe esse tipo de passagem, a chamada Rua de uma pessoa. Os dois muros eram desiguais; o muro alto era a prisão, o muro baixo era o cemitério. O muro baixo, tapume dos restos mortais da prisão, não ultrapassava a altura de um homem. Era aberto por uma porta frontal ao guichê da prisão. Os mortos só tinham o trabalho de atravessar a rua. Uns vinte passos bastavam para que entrassem no cemitério.
+Uma escada patibular estava presa ao muro alto; em frente, no muro baixo, estava esculpida uma caveira. Nenhum desses muros consolava o outro.

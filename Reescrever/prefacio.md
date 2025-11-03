@@ -1,0 +1,4 @@
+## Prefácio do autor.
+Da Inglaterra, tudo é grande, até o que não é bom, até a oligarquia. A nobreza inglesa é a nobreza, no sentido absoluto da palavra. Não há feudalidade mais ilustre, mais terrível e mais vivaz. Devemos dizer que essa feudalidade foi útil em seu momento. É na Inglaterra que o fenômeno da Senhoria deve ser estudado, assim como é na França que se deve estudar este outro fenômeno, a Realeza.
+O verdadeiro título deste livro seria A Aristocracia. Um outro livro, que virá em seguida, poderá ser intitulado A Monarquia. E os dois livros, se for dado ao autor concluir tal trabalho, precederão e levarão a outro, que se chamará Noventa e três.
+Hauteville House, 1869
